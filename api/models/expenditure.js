@@ -17,7 +17,7 @@ const expenditureSchema = new Schema(
 			required: true,
 			min: 1,
 		},
-		who: {
+		username: {
 			type: String,
 			required: true,
 		},
