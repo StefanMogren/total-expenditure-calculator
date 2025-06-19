@@ -1,7 +1,7 @@
 import { Router } from "express";
 import { v4 as uuid } from "uuid";
 import { createExpenditure } from "../services/expenditures.js";
-import Expenditure from "../models/expenditure.js";
+// import Expenditure from "../models/expenditure.js";
 
 const router = Router();
 

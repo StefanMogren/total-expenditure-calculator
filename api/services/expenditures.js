@@ -1,4 +1,4 @@
-import Expenditure from "../models/expenditure";
+import Expenditure from "../models/expenditure.js";
 
 export async function createExpenditure(purchase, when, amount, username) {
 	try {
